@@ -1,3 +1,8 @@
+.container {
+    background-image: url("mars.jpeg");
+}
+
+
 #Projets {
     background-color: #F2F2F2;
     display: flex;
