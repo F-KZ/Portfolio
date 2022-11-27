@@ -1,10 +1,11 @@
 .container {
-    background-image: url("mars.jpeg");
+   
+    background-image: url(/Users/Kanza/Desktop/Portfolio/images/mars2.jpeg);
 }
 
 
 #Projets {
-    background-color: #F2F2F2;
+    
     display: flex;
     flex-direction: column;
     align-content: space-between;

@@ -7,13 +7,13 @@ body > div > div {
     width:65%;
 }
 .container {
-    background-image: url("mars.jpeg");
+    background-image: url(/Users/Kanza/Desktop/Portfolio/images/mars3.webp);
 }
 .skill-box .title{
     display: block;
     font-size: 14px;
     font-weight: 600;
-    color: #333;
+    color: white;
 }
 .skill-box .skill-bar{
     height: 8px;

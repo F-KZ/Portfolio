@@ -1,5 +1,5 @@
 .container {
-    background-image: url("mars.jpeg");
+    background-image: url(/Users/Kanza/Desktop/Portfolio/images/mars4.jpeg);
 }
 
 #title-Tag-Line {
@@ -7,7 +7,7 @@
   }
   
   .formulaire {
-    background: #fff;
+    
     box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
     border-radius: 5px;
     max-width: 480px;
@@ -36,10 +36,11 @@
     margin: 0 auto 5px 80px;
   }
   
-  .pageTitle{
-    font-size: 2em;
+  .pageTitle {
+    /* font-size: 2em; */
+    color: white;
     font-weight: bold;
-  }
+}
   .secondaryTitle{
     color: grey;
   }
