@@ -1,0 +1,81 @@
+#Projets {
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    border-radius: 20px;
+    padding: 15px;
+}
+.carte {
+    width: 90%;
+    max-width: 600px;
+    color: aliceblue;
+    text-align: center;
+    /* padding: 50px 35px; */
+    border: 1px solid rgb(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(5px);
+}
+
+.presentation {
+    margin: 0px;
+    font-size: x-large;
+    margin-bottom: 21px;
+}
+
+.placement_photo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.placement_photo a {
+    text-decoration: none;
+    color: black;
+}
+
+.box_carte {
+    display: flex;
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 5px 5px 10px 5px;
+    background-color: white;
+    max-width: 236px;
+    height: 200px;
+    margin-bottom: 28px;
+    transition: transform .1s;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform .1s;
+}
+
+#Projets > div.placement_photo > a > div > picture > img {
+    object-fit: cover;
+    width: 195px;
+    height: 112px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.carte_contenu {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* padding-left: 16px; */
+    /* margin-bottom: 100px; */
+    width: 100%;
+    font-size: 14px;
+    /* height: 90px; */
+    /* TEXT-DECORATION: none; */
+    /* flex-wrap: nowrap; */
+    /* align-items: flex-start; */
+}
+
+.description {
+    height: 56px;
+}
